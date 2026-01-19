@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple-500: rgba(136, 79, 209, 0.3);
+  --color-purple-700: #884FD1;
+  --color-purple-900: #7640bd;
+  --color-gray-100: rgba(218, 218, 218, 0.8);
+}
+
+body, input, textarea, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+body, aside {
+  background-color: #fefefe;
+}
